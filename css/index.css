@@ -1,0 +1,130 @@
+
+html, body, section{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    font-family: "Microsoft YaHei Mono";
+}
+
+
+
+.gps .cur{
+    background-color: orangered;
+
+}
+
+/*page3*/
+.p3 .school{
+    margin-top:100px;
+
+    /*background-color: blue;*/
+}
+.p3 .school .pic_school{
+    width: 100%;
+    height: 700px;
+    background: url("../image/MySchool.jpg");
+    background-size:cover;
+    background-position: center, center;
+}
+
+.p3 .detail{
+    /*border: 1px solid #ccc;*/
+}
+/*page4*/
+.p4 .peosion{
+    height: 500px;
+    margin-top: 100px;
+    background-color: green;
+    position: relative;
+
+}
+.peosion .box_1{
+    font-size:20px;
+    position: absolute;
+    border: 3px solid #ff9a2b;
+    background-color: #ff9a2b;
+    transition: all 1s;
+}
+.borrow{
+    position: absolute;
+    left: 50% !important;
+    top:50% !important;
+    /*既要平移又要旋转
+    先要平移,*/
+    transform:translate(-50%,-50%) rotate(0deg) scale(1.5,1.5) !important;
+    z-index: 99;
+    background-color: darkorange;
+}
+
+
+
+
+
+
+/*第一页*/
+.carousel-inner .item img{
+    width: 100%;
+    height: 950px;
+}
+.carousel-inner{
+
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+/*第二页*/
+.second{
+    margin-top: 100px;
+}
+.second .name{
+    display: inline-block;
+    float: right;
+    font-size:20px;
+    margin-left:20px;
+    width: 100px;
+
+}
+.lesson{
+    margin-top:20px;
+}
+.information{
+    margin-top: 200px;
+}
+.information p{
+    font-size:25px;
+}
+.information p a{
+    margin-left:20px;
+
+}
+.information p a img{
+    width: 50px;
+    height: 50px;
+}
+.zhihubao img{
+    width: 200px;
+    height: 200px;
+}
+
+.weixin span{
+    position: relative;
+    left: 20px;
+
+}
+
+/*音乐*/
+.dropdown-menu li span{
+    /*float: left;*/
+    display: inline-block;
+    width: 100px;
+    /*margin-bottom:30px;*/
+}
+.dropdown-menu li audio{
+    margin-top:10px;
+}
+
