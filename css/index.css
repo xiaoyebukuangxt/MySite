@@ -69,9 +69,7 @@ body{
     width: 100%;
     height: 950px;
 }
-.carousel-inner{
 
-}
 .contain{
     width: 100%;
     height: 100%;
@@ -115,6 +113,9 @@ body{
     position: relative;
     left: 20px;
 
+}
+#timer_add {
+    background-color: yellow;
 }
 
 /*音乐*/
